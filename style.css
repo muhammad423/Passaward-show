@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.passaward-main{
+    background-color: rgba(92, 92, 199, 0.748);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.user-passaward{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    outline-style: none;
+    background-color: rgba(243, 243, 243, 0.882);
+    border: none;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 7px 30px;
+    background-color: rgb(184, 33, 33);
+    color: white;
+    outline-style: none;
+    border: none;
+    border-radius: 40px;
+    display: block;
+}
+
+form{
+    position: relative;
+}
+
+.fa-eye{
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(144, 137, 137);
+}
+
+.fa-eye-slash{
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(144, 137, 137);
+}
+
+@media (max-width:576px) {
+    .passaward-main{
+        width: 350px;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .container{
+       margin: auto;
+    }
+}
